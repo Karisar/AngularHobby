@@ -1,4 +1,4 @@
-package com.websystique.springboot.model;
+package com.sarsila.springboot.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

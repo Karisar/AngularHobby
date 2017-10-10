@@ -1,4 +1,4 @@
-package com.websystique.springboot.controller;
+package com.sarsila.springboot.controller;
 
 import java.util.List;
 
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.websystique.springboot.model.User;
-import com.websystique.springboot.service.UserService;
-import com.websystique.springboot.util.CustomErrorType;
+import com.sarsila.springboot.model.User;
+import com.sarsila.springboot.service.UserService;
+import com.sarsila.springboot.util.CustomErrorType;
 
 @RestController
 @RequestMapping("/api")

@@ -1,9 +1,9 @@
-package com.websystique.springboot.service;
+package com.sarsila.springboot.service;
 
-
-import com.websystique.springboot.model.User;
 
 import java.util.List;
+
+import com.sarsila.springboot.model.User;
 
 public interface UserService {
 	
