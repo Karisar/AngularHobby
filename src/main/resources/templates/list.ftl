@@ -34,6 +34,15 @@
 	                        </div>
 	                    </div>
 	                </div>
+	                
+	                <div class="row">
+	                    <div class="form-group col-md-12">
+	                        <label class="col-md-2 control-lable" for="gender">Gender</label>
+	                        <div class="col-md-7">
+	                            <input type="text" ng-model="ctrl.user.gender" id="gender" class="form-control input-sm" placeholder="Enter your Gender." />
+	                        </div>
+	                    </div>
+	                </div>
 
 	                <div class="row">
 	                    <div class="form-actions floatRight">
@@ -57,6 +66,7 @@
 		                <th>NAME</th>
 		                <th>AGE</th>
 		                <th>SALARY</th>
+		                <th>GENDER</th>
 		                <th width="100"></th>
 		                <th width="100"></th>
 		            </tr>
@@ -67,6 +77,7 @@
 		                <td>{{u.name}}</td>
 		                <td>{{u.age}}</td>
 		                <td>{{u.salary}}</td>
+		                <td>{{u.gender}}</td>
 		                <td><button type="button" ng-click="ctrl.editUser(u.id)" class="btn btn-success custom-width">Edit</button></td>
 		                <td><button type="button" ng-click="ctrl.removeUser(u.id)" class="btn btn-danger custom-width">Remove</button></td>
 		            </tr>

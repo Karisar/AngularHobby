@@ -89,6 +89,7 @@ public class RestApiController {
 		currentUser.setName(user.getName());
 		currentUser.setAge(user.getAge());
 		currentUser.setSalary(user.getSalary());
+		currentUser.setGender(user.getGender());
 
 		userService.updateUser(currentUser);
 		return new ResponseEntity<User>(currentUser, HttpStatus.OK);

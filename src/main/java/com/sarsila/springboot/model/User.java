@@ -23,6 +23,10 @@ public class User implements Serializable{
 	@Column(name="SALARY", nullable=false)
 	private double salary;
 
+	@Column(name="GENDER", nullable=false)
+	private String gender;
+
+	
 	public Long getId() {
 		return id;
 	}
@@ -53,6 +57,14 @@ public class User implements Serializable{
 
 	public void setSalary(double salary) {
 		this.salary = salary;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
 
 	@Override
